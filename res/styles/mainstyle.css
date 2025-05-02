@@ -211,6 +211,45 @@ section h2 {
   text-shadow: 4px 4px 5px rgba(0, 0, 0, 1);
 }
 
+.section-bg-info {
+  background-image: url("./../images/section-bg-info.jpg");
+  padding: 80px 20px;
+  background-position: 0 -100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  margin-bottom: 0;
+  align-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+.section-bg-info h2,
+.section-bg-info p {
+  text-shadow: 4px 4px 5px rgba(0, 0, 0, 1);
+}
+
+.section-info p {
+  color: var(--primary-color);
+  font-size: 16x;
+  margin-bottom: 15px;
+  text-shadow: 4px 4px 6px rgba(0, 0, 0, 1);
+}
+
+.contact-section-info {
+  background-image: url("./../images/section-bg-contact-info.jpg");
+  backface-visibility: var(--primary-color);
+  padding: 60px 20px;
+  background-position: 0 350px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  margin-bottom: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+.contact-section-info h2,
+.contact-section-info p {
+  text-shadow: 4px 4px 5px rgba(0, 0, 0, 1);
+}
+
 ul {
   padding-left: 20px;
   margin-top: 10px;
@@ -226,6 +265,22 @@ footer {
 .highlight {
   color: var(--accent-color);
 }
+
+/*
+.section-bg-members {
+  background-image: url("./../images/sc.jpg");
+  padding: 60px 20px;
+  background-position: 0 350px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  margin-bottom: 0;
+  align-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+.section-bg-members h2 {
+  text-shadow: 4px 4px 5px rgba(0, 0, 0, 1);
+} */
 
 /* Responsive styles */
 @media (max-width: 768px) {
@@ -262,5 +317,37 @@ footer {
 
   .contact-section {
     background-image: url("./../images/section-bg-contact-mobile.jpg");
+    background-position: 0px;
+  }
+
+  .contact-section-info {
+    background-position: 0px;
   }
 }
+
+/* rules styles 
+.rules-section {
+  background-color: var(--secondary-bg);
+  padding: 60px 20px;
+  text-align: center;
+}
+.rules-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.rules-container h2 {
+  color: var(--accent-color);
+  margin-bottom: 20px;
+  font-size: 32px;
+  font-family: 'Orbitron', sans-serif;
+}
+.rules-container ul {
+  list-style: none;
+  padding-left: 0;
+}
+.rules-container ul li {
+  font-family: 'Audiowide', sans-serif;
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: var(--button-color);
+} */

@@ -1,19 +1,67 @@
 <!DOCTYPE html>
 <html lang="cs">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ronin PMC | Arma 3 Milsim</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pravidla | Ronin PMC</title>
 
-    <!-- Sloučení fontů (Orbitron se opakoval) -->
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap" rel="stylesheet" />
-    
-    <link rel="stylesheet" href="./../res/styles/mainstyle.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./../res/styles/mainstyle.css" />
 </head>
 <body>
-    <script src="./../scripts/menu.js"></script>
-    <script src="./../scripts/paralax_script.js"></script>
+    <header>
+        <div class="logo-container">
+            <img src="./../res/images/logo.png" alt="Logo Ronin PMC" class="logo-img" />
+            <h1>Ronin PMC</h1>
+        </div>
+        <nav>
+            <ul id="nav-list">
+                <li><a href="./../index.html">Úvod</a></li>
+                <li><a href="rls.html">Pravidla</a></li>
+                <li><a href="members.html">Členové</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <div></div><div></div><div></div>
+        </div>
+    </header>
+
+  <section class="rules-section">
+    <div class="rules-container">
+      <h2>Pravidla jednotky</h2>
+      <ul>
+        <li>Respektuj velení a nadřízené.</li>
+        <li>Neběhej na vlastní pěst – drž se týmu.</li>
+        <li>Dodržuj ROE (rules of engagement).</li>
+        <li>Buď aktivní – aktivita je základ jednotky.</li>
+        <li>Buď slušný k ostatním hráčům i mimo jednotku.</li>
+        <li>Nevyvolávej konflikty v chatu nebo na discordu.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section-bg-rules">
+    <h2>O nás</h2>
+    <p>
+      Ronin PMC je moderní paramilitární jednotka založená na týmové spolupráci,
+      realističnosti a čestném přístupu. Působíme na milsim serverech a hledáme hráče,
+      kteří chtějí být součástí koordinovaného a disciplinovaného týmu.
+    </p>
+  </section>
+
+  <section class="contact-section">
+    <h2>Kontakt</h2>
+    <p>Chceš se přidat nebo máš otázky?</p>
+    <p>Napiš nám na Discord: <strong><a href="https://discord.gg/cvamdyVuMA">Zde</a></strong></p>
+  </section>
+
+<footer>
+    &copy; 2025 Ronin PMC | Vytvořeno s respektem pro komunitu Arma 3
+</footer>
+
 </body>
 </html>
