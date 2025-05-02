@@ -14,7 +14,7 @@
 }
 
 body {
-  font-family: 'Orbitron', sans-serif;
+  font-family: 'Audiowide', sans-serif;
   background-color: var(--primary-bg);
   color: var(--primary-color);
   line-height: 1.6;
@@ -32,12 +32,17 @@ header {
 }
 
 header h1 {
+  font-family: 'Orbitron', sans-serif;
   font-size: 24px;
   color: var(--accent-color);
 }
 
 p {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Exo 2', sans-serif;
+}
+
+strong {
+  color: rgb(231, 231, 231);
 }
 
 .logo-container {
@@ -125,6 +130,7 @@ section h2 {
   color: var(--accent-color);
   margin-bottom: 20px;
   font-size: 32px;
+  font-family: 'Audiowide', sans-serif;
 }
 
 .intro-section {
@@ -181,6 +187,7 @@ section h2 {
   margin-bottom: 20px;
   margin-left: 100px;
   font-size: 32px;
+  font-family: 'Orbitron', sans-serif;
 }
 
 .section-bg-main p {
